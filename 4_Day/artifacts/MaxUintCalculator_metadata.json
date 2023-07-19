@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "digits",
+						"type": "uint256"
+					}
+				],
+				"name": "maxUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"4_Day/6_nested_for_loops.sol": "MaxUintCalculator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"4_Day/6_nested_for_loops.sol": {
+			"keccak256": "0x05dbaa8c677c239edbe9eff9f08b42d429eeb1a4cfc0f3a6401904e2ffb6e4ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f23d7cb8bd19bee671b8921b9be2ad2a05968bf30181d0b8a44cac2bd06c7c8",
+				"dweb:/ipfs/QmeshjicZbfGGoVgaovZGcPCETyjcQea5gZNk4b2bwsoiP"
+			]
+		}
+	},
+	"version": 1
+}

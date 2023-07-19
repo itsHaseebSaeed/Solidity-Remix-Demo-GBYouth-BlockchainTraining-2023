@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateSum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"4_Day/5_for_loop.sol": "Quiz"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"4_Day/5_for_loop.sol": {
+			"keccak256": "0xb714e863ce1f0d7c44ce16a54dcb5a96463d72f2fc1e6b855062b970869681dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fdca4c2904645dd240dee162e80938c4ad5a47684ace686f646f8c139cbbaacf",
+				"dweb:/ipfs/Qmc1LoFdPztGyDk4qgDgzePHrQLnGsE5ZhENa9DbWvjnQU"
+			]
+		}
+	},
+	"version": 1
+}

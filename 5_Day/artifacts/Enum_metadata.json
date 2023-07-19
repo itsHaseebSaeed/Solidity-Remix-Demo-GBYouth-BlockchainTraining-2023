@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "class_role",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Role",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Enum.Role",
+						"name": "_role",
+						"type": "uint8"
+					}
+				],
+				"name": "indexing",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Role",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "teacher",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"5_Day/2_enum_live_demo.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"5_Day/2_enum_live_demo.sol": {
+			"keccak256": "0xaccb413e6d4f8c582a8da427b3caa176bd88579edaa6ab1e4afa57c93a92caf1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://90f02c25eefadf65aa17416c0584913245335e0d17c3fe2b82203befb56c0703",
+				"dweb:/ipfs/Qmausvx1N4TsCLcoYx8iU9AevvEXyVcyYhpvRnfkqDNkxR"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contract_owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_recipient_address",
+						"type": "address"
+					}
+				],
+				"name": "transferEther",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day01/address.sol": "addressDatatype"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day01/address.sol": {
+			"keccak256": "0xe74ba953a34128e0f7937a1bdc97494c27df7d67ae97a2f49e210d83eab246c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da242e376d909f6b075bd51d6ca1be399ef36ef146c8c732edd904a132dc5541",
+				"dweb:/ipfs/Qmbbqbi8NbfNMp7bvuL2ALog2nYVGnMXjmv9tntDizq7q6"
+			]
+		}
+	},
+	"version": 1
+}

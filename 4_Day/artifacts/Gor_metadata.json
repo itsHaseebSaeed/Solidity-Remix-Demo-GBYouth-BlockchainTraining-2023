@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrementWhile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"4_Day/4_do_while_loop.sol": "Gor"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"4_Day/4_do_while_loop.sol": {
+			"keccak256": "0x7903293a89a9cb61af35ad1d8e8249c2ef64845fcbe7c93c123fb4734c398ed9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34a507a5c41f78d1007e7da89709edbb7c1ebf1f039dc4cd40bfbc67f11423f8",
+				"dweb:/ipfs/QmRP4ekTnepgSZVFnLvdaz7Cu3TGHqJNMy3EYfeuosWaUq"
+			]
+		}
+	},
+	"version": 1
+}

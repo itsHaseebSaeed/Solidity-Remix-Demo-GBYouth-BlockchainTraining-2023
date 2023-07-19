@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "TAX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zero.sol": "Quiz"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zero.sol": {
+			"keccak256": "0x970d5c4fa1c80326589b0aff7e8d0fcb955580511c1bf5ce69b03ddab598bae6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9800abef8210c9550972f4b2f3530ca621585da6b4daa878c479823b287ba01",
+				"dweb:/ipfs/QmfA8Y38kfhcZfjxB4aEwk9tTcefFt3GzNXWApcrUbH1mU"
+			]
+		}
+	},
+	"version": 1
+}
