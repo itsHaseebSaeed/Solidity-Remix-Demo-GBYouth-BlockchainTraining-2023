@@ -38,6 +38,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "clear",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "doesEat",
 				"outputs": [
 					{
@@ -71,6 +78,19 @@
 					}
 				],
 				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -117,11 +137,11 @@
 	},
 	"sources": {
 		"6_Day/5_Inheritance/1_Basic_Inheritance.sol": {
-			"keccak256": "0x9a61011154b52a1da0533988f6e0c8d62206fabca907b07229adb75bf815145d",
+			"keccak256": "0x49ee84a316ec556d47cc46ca31258f3860a77e4390bd55cd499d76131e63aa33",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://31c2f1bb47e7bcb60c7764237de401b617a422c655af762ad10ea4abeb1fd9af",
-				"dweb:/ipfs/QmYo5CkRPFRuxHqhcPzxU18UZiZER39BqmNkBPo1EamvVo"
+				"bzz-raw://945d9636bcdd1654edd7c70c6830859659ca7db79da870125e8ef7a1e6313ed9",
+				"dweb:/ipfs/QmZmjRqDVy99ZNWLZJaXdhhSHDTkqs9ZrUs2qSUUhoEKm3"
 			]
 		}
 	},

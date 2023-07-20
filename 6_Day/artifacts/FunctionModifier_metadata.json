@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -24,32 +24,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "i",
-						"type": "uint256"
-					}
-				],
-				"name": "decrement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "locked",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -57,19 +31,6 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "x",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -89,9 +50,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"6_Day/3_functions_modifiers.sol": "FunctionModifier"
+			"6_Day/3_function_modifier_live_demo.sol": "FunctionModifier"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -103,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"6_Day/3_functions_modifiers.sol": {
-			"keccak256": "0x668f714098718d8f53ef2a57fb0fcc104f7800cc8efd1f6536487103fede0820",
+		"6_Day/3_function_modifier_live_demo.sol": {
+			"keccak256": "0x73dae872b11eeea2991f9534943a9d22b1fba78337de64e7133ad602787cb55a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7eaa51b9e727fbeea09d7beba7ccc01d43e29181f961bff35c3862b4362069b1",
-				"dweb:/ipfs/QmP199KS7EBaGNVp4d1uYZQd5sLquwQXS5YdLor7CscqTj"
+				"bzz-raw://893733dae926e5c9b87f94fb394e6ec1f79bb479caf6a5411b265caae94356bb",
+				"dweb:/ipfs/QmTaAaiam8WPGwJYXqwKtYMZVdVcZrxmr8EmmVrdWSBNh2"
 			]
 		}
 	},

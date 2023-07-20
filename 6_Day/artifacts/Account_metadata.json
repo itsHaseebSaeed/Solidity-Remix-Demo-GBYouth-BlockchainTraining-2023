@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -71,6 +71,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -99,7 +112,7 @@
 		"compilationTarget": {
 			"6_Day/2_error.sol": "Account"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -112,11 +125,11 @@
 	},
 	"sources": {
 		"6_Day/2_error.sol": {
-			"keccak256": "0x7b5cf6dd1ade840e84581cb4cf72c105aaafb98ef1d073b70097c6f9d16ddd22",
+			"keccak256": "0x99bebc4b70e982f47fd69c68dd59263bd165bdef770e21466c03dbaf8d869060",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9ae847c579aca92b18f8d586e20946753dbe7bfd080f86076631285266ca1c54",
-				"dweb:/ipfs/QmNYjftgB2Y6Gz5BtD8ZjLps1YuDXKtXBV49XsBvhg4hgB"
+				"bzz-raw://f94bc7647e13ccf908637bfa9ad3ffd9154bca76f5827de0a0610690219e82a4",
+				"dweb:/ipfs/QmfDb1ZPB97hKBByBZNQc6kJXVdoSKL7Lv63CeAJfsKN13"
 			]
 		}
 	},

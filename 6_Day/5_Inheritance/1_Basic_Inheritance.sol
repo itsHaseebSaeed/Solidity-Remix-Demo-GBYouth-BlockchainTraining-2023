@@ -5,6 +5,11 @@ contract Animal {
     string public species="";
     uint public age=0;
 
+    function clear()public {
+        species= "";
+        age = 0;
+    }
+
     function doesEat() public pure returns (string memory) {
         return "The animal eats.";
     }
@@ -30,6 +35,10 @@ contract Cat is Animal {
 
     function meow() public pure returns (string memory) {
         return "The cat meows.";
+    }
+
+        function setName(string memory _name) public {
+        species = _name;
     }
 
     function setAge(uint _age) public {

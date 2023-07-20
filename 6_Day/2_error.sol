@@ -3,6 +3,7 @@ pragma solidity ^0.8.17;
 
 contract Account {
     uint public balance;
+    string public name ="Haseeb";
 
     function deposit(uint _amount) public {
         uint oldBalance = balance;
@@ -33,25 +34,28 @@ contract Account {
 
     function Require(uint _amount)public {
     require( _amount > 100, "Some error");
-
     withdraw(_amount);
     }
 
     function Revert(uint _amount)public {
-        if(_amount > 100){
-        revert("Some error");
-        }
+        // if(_amount > 100){
+        // revert("Some error");
+        // }
+        require( _amount <= 100, "Some error");
+
         withdraw(_amount);
-
-
-
     }
 
     function Assert(uint _amount)public {
-        withdraw(_amount);
+        require( _amount > 100,"Some error");
+        
+
+
         assert( _amount > 100);
 
+        withdraw(_amount);
 
+        // Error "Some error"
     }
 
 

@@ -7,12 +7,6 @@
 		"abi": [
 			{
 				"anonymous": false,
-				"inputs": [],
-				"name": "AnotherLog",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
 				"inputs": [
 					{
 						"indexed": true,
@@ -22,17 +16,36 @@
 					},
 					{
 						"indexed": false,
-						"internalType": "string",
-						"name": "message",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
 					}
 				],
-				"name": "Log",
+				"name": "WinnerLog",
 				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "test",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "winning_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "decideWinner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "winning_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "decideWinnerNoEvent",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -51,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"6_Day/4_events.sol": "Event"
+			"6_Day/lottery_events.sol": "LotteryEvent"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -65,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"6_Day/4_events.sol": {
-			"keccak256": "0x2481fd817590998f3c2da97f97909f07daf6b01d061b88d868deef46165bbecd",
+		"6_Day/lottery_events.sol": {
+			"keccak256": "0x72c1ee8044d88bb33569b85c29a6cb9f656dc1c166418a9396beda17c44f48aa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://926a75f273ec6cb37ef97c422391dba5b967b527eb9d2d44863a7ddfaf00a807",
-				"dweb:/ipfs/QmZWXyrQ8o8HugsAjWaGdobCDYzDQLkis6kj4LfSti6HdB"
+				"bzz-raw://112d91175eaba4c872b2ccbe9bbe9be12372965fbad07e389d3cf926eddb120a",
+				"dweb:/ipfs/QmeuR5TcdixJu2sBm156n9wWxbn5aNHDg8455bs5z9QHWu"
 			]
 		}
 	},

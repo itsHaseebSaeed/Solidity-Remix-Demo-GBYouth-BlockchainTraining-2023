@@ -5,8 +5,6 @@ contract ViewAndPure {
  
  address public  owner;
 
- 
-
 
  function setOwner() public returns (address) {
     owner= msg.sender;
@@ -15,14 +13,14 @@ contract ViewAndPure {
  }
 
  function readOwner() public view returns (address) {
-    // owner= msg.sender; // Gives error cannot change state in view
+   //  owner= msg.sender; // Gives error cannot change state in view
     return owner;
  }
 
-  function random() public pure returns (address) {
-    // owner= msg.sender; // Gives error cannot change state in view
-    return owner;
- }
+//   function random() public pure returns (address) {
+//    //  owner= msg.sender; // Gives error cannot change state in view
+//     return owner;
+//  }
 
 
 

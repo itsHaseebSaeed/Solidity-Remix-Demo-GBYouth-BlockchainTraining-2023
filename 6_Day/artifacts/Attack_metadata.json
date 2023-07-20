@@ -6,42 +6,51 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "readOwner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setOwner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
+						"name": "_etherStoreAddress",
 						"type": "address"
 					}
 				],
 				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "etherStore",
+				"outputs": [
+					{
+						"internalType": "contract EtherStore",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -58,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"6_Day/1_view_pure.sol": "ViewAndPure"
+			"6_Day/re_entrancy.sol": "Attack"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"6_Day/1_view_pure.sol": {
-			"keccak256": "0x30a5f07e2adc3489f430059433ebd8cd87f1871ddd60739cedb18e9ff65490c5",
+		"6_Day/re_entrancy.sol": {
+			"keccak256": "0x505d9d256e23eb64745f137973b33f449df747e605e98ab718466c6c50a043b6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c97f15fa7fddf84db04a27d70b7d6d53e26f99d556b2a66afeaba5b4313aea2f",
-				"dweb:/ipfs/QmRXZmsJ29Yj7CSprPDG3GkDMhCFDQzkA5db9Gt4aqtCfQ"
+				"bzz-raw://07736375e73d4aafd30d8e27a02b7583b47b669145c0b2d16def668d971c3a1c",
+				"dweb:/ipfs/QmY7wYxwFjH8V9XVhixKGCn1rMZJN8hgRk1zwHfvNHbDjw"
 			]
 		}
 	},

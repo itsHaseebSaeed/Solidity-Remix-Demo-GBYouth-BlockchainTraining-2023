@@ -7,41 +7,34 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "i",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "int256",
 						"name": "",
-						"type": "address"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "readOwner",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setOwner",
+				"name": "int_to_uint",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -58,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"6_Day/1_view_pure.sol": "ViewAndPure"
+			"6_Day/2_error_live_demo.sol": "ErrorLiveDemo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"6_Day/1_view_pure.sol": {
-			"keccak256": "0x30a5f07e2adc3489f430059433ebd8cd87f1871ddd60739cedb18e9ff65490c5",
+		"6_Day/2_error_live_demo.sol": {
+			"keccak256": "0x24dc116384765156ac03a28298a748cbc0091fdda07780eeae9c382fa7c75a9e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c97f15fa7fddf84db04a27d70b7d6d53e26f99d556b2a66afeaba5b4313aea2f",
-				"dweb:/ipfs/QmRXZmsJ29Yj7CSprPDG3GkDMhCFDQzkA5db9Gt4aqtCfQ"
+				"bzz-raw://845076e43b081b33e68138d74917a5508263c8d7445f70422a76bc7adca8ab87",
+				"dweb:/ipfs/QmZrStfkdVN182eVEEuBXCHCCp4Uehfp4sNcUAQnBcdrUV"
 			]
 		}
 	},
